@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/sign-in.css">
+  <script src="/assets/js/bootstrap.min.js"></script>
+</head>
+<body class="text-center">
+<div class="container">
+  <main class="form-signin w-100 m-auto">
+    <form method="post" action="/register">
+      <p style="background: red">{{.}}</p>
+      <!--        <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
+      <h1 class="h3 mb-3 fw-normal" _msttexthash="9270430" _msthash="1">请注册</h1>
+
+      <div class="form-floating">
+        <input type="text" name="username" class="form-control" id="floatingInput" placeholder="用户名"
+               _mstplaceholder="299455" _msthash="2">
+        <label for="floatingInput" _msttexthash="18799001" _msthash="3">用户名</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="密码" _mstplaceholder="117572"
+               _msthash="4">
+        <label for="floatingPassword" _msttexthash="5332938" _msthash="5">密码</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" name="repassword" class="form-control" id="refloatingPassword" placeholder="确认密码" _mstplaceholder="117572"
+               _msthash="3">
+        <label for="floatingPassword" _msttexthash="5332938" _msthash="5">确认密码</label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit" _msttexthash="5298241" _msthash="7">登录</button>
+<!--      <p class="mt-5 mb-3 text-muted" _msttexthash="1358682" _msthash="8">© 2017–2022</p>-->
+    </form>
+    <hr>
+    <a type="button" href="/" class="btn btn-warning">返回主页</a>
+  </main>
+</div>
+
+</body>
+</html>
